@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-25T13:19:39 IST" name="Suite" finished-at="2025-03-25T13:19:39 IST" duration-ms="95">
+    <groups>
+      <group name="smoke">
+        <method signature="ECW.ecwSpecial()[pri:0, instance:Test.ECW@3835c46]" name="ecwSpecial" class="Test.ECW"/>
+        <method signature="TNA.tnaAdvance()[pri:0, instance:Test.TNA@16ec5519]" name="tnaAdvance" class="Test.TNA"/>
+        <method signature="DeshiAkhara.deshiFight()[pri:0, instance:Test.DeshiAkhara@4f83df68]" name="deshiFight" class="Test.DeshiAkhara"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-03-25T13:19:39 IST" name="Test" finished-at="2025-03-25T13:19:39 IST" duration-ms="43">
+      <class name="Test.ECW">
+        <test-method signature="ecwCriteria()[pri:0, instance:Test.ECW@3835c46]" started-at="2025-03-25T13:19:39 IST" name="ecwCriteria" finished-at="2025-03-25T13:19:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ecwCriteria -->
+        <test-method signature="ecwExtreme()[pri:0, instance:Test.ECW@3835c46]" started-at="2025-03-25T13:19:39 IST" name="ecwExtreme" finished-at="2025-03-25T13:19:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ecwExtreme -->
+        <test-method signature="ecwSpecial()[pri:0, instance:Test.ECW@3835c46]" started-at="2025-03-25T13:19:39 IST" name="ecwSpecial" finished-at="2025-03-25T13:19:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ecwSpecial -->
+      </class> <!-- Test.ECW -->
+      <class name="Test.TNA">
+        <test-method signature="tnaAdvance()[pri:0, instance:Test.TNA@16ec5519]" started-at="2025-03-25T13:19:39 IST" name="tnaAdvance" finished-at="2025-03-25T13:19:39 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tnaAdvance -->
+        <test-method signature="tnaSpecial()[pri:0, instance:Test.TNA@16ec5519]" started-at="2025-03-25T13:19:39 IST" name="tnaSpecial" finished-at="2025-03-25T13:19:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tnaSpecial -->
+        <test-method signature="tnaSuper()[pri:0, instance:Test.TNA@16ec5519]" started-at="2025-03-25T13:19:39 IST" name="tnaSuper" finished-at="2025-03-25T13:19:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tnaSuper -->
+      </class> <!-- Test.TNA -->
+      <class name="Test.WWE">
+        <test-method signature="wweRaw()[pri:0, instance:Test.WWE@1dde4cb2]" started-at="2025-03-25T13:19:39 IST" name="wweRaw" finished-at="2025-03-25T13:19:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wweRaw -->
+        <test-method signature="wweSmackdown()[pri:0, instance:Test.WWE@1dde4cb2]" started-at="2025-03-25T13:19:39 IST" name="wweSmackdown" finished-at="2025-03-25T13:19:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wweSmackdown -->
+        <test-method signature="wweSpecial()[pri:0, instance:Test.WWE@1dde4cb2]" started-at="2025-03-25T13:19:39 IST" name="wweSpecial" finished-at="2025-03-25T13:19:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wweSpecial -->
+      </class> <!-- Test.WWE -->
+    </test> <!-- Test -->
+    <test started-at="2025-03-25T13:19:39 IST" name="Test2" finished-at="2025-03-25T13:19:39 IST" duration-ms="12">
+      <class name="Test.DeshiAkhara">
+        <test-method signature="deshiFight()[pri:0, instance:Test.DeshiAkhara@4f83df68]" started-at="2025-03-25T13:19:39 IST" name="deshiFight" finished-at="2025-03-25T13:19:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deshiFight -->
+        <test-method signature="deshiHatafai(java.lang.String)[pri:0, instance:Test.DeshiAkhara@4f83df68]" started-at="2025-03-25T13:19:39 IST" name="deshiHatafai" finished-at="2025-03-25T13:19:39 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deshiHatafai -->
+        <test-method signature="deshiKushti(java.lang.String,java.lang.String)[pri:0, instance:Test.DeshiAkhara@4f83df68]" started-at="2025-03-25T13:19:39 IST" name="deshiKushti" data-provider="dataSend" finished-at="2025-03-25T13:19:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rupam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ban]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deshiKushti -->
+        <test-method signature="deshiKushti(java.lang.String,java.lang.String)[pri:0, instance:Test.DeshiAkhara@4f83df68]" started-at="2025-03-25T13:19:39 IST" name="deshiKushti" data-provider="dataSend" finished-at="2025-03-25T13:19:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ramen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Muk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deshiKushti -->
+        <test-method signature="deshiKushti(java.lang.String,java.lang.String)[pri:0, instance:Test.DeshiAkhara@4f83df68]" started-at="2025-03-25T13:19:39 IST" name="deshiKushti" data-provider="dataSend" finished-at="2025-03-25T13:19:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arpan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Muk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deshiKushti -->
+      </class> <!-- Test.DeshiAkhara -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
